@@ -41,4 +41,16 @@
   .showcase-cta-button {
     width: 100%;
   }
+
+  .services-details {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .services-article {
+    width: 100%;
+    border: .1rem solid var(--medium-white);
+  }
 }

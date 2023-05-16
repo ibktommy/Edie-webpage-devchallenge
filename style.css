@@ -149,6 +149,7 @@ nav {
 }
 
 section {
+  margin: 0 auto;
   margin-bottom: 10rem;
 }
 
@@ -256,4 +257,95 @@ section {
 .showcase-cta-button button:hover {
   background: var(--pry-color-dark);
   transition: .4s ease;
+}
+
+/* SERVICES SECTION */
+.services {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.services-header {
+  font-size: 3.6rem;
+  font-weight: 500;
+  color: var(--medium-dark-grey);
+  width: 30rem;
+  margin-bottom: 5rem;
+}
+
+.services-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.services-article {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  align-items: flex-start;
+    padding: 2rem;
+  cursor: pointer;
+}
+
+.services-article:hover {
+  background: var(--white);
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  transition: .2s ease-in;
+}
+
+.svg-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: .8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-article:nth-child(1) .svg-icon{
+  background: var(--pry-color-light);
+}
+.services-article:nth-child(2) .svg-icon{
+  background: var(--sec-color)
+}
+.services-article:nth-child(3) .svg-icon{
+  background: var(--tertiary-color)
+}
+
+.svg-icon svg {
+  width: 2.4rem;
+  height: 2.4rem;
+  fill: var(--white);
+}
+
+.services-article-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--medium-dark-grey);
+}
+
+.services-article p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--dark-grey);
+  width: 20rem;
+}
+
+.services-article-btn {
+  width: 12rem;
+  height: 4.5rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background: var(--medium-white);
+  color: var(--medium-grey);
+  border: 0;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.services-article:hover .services-article-btn {
+  background: var(--pry-color-light);
+  color: var(--white);
+  transition: .2s ease-in;
 }
