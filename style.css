@@ -57,6 +57,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: .1rem solid var(--light-grey);
   z-index: 50;
 }
 

@@ -6,4 +6,39 @@
   .nav-menu {
     display: block;
   }
+
+  .showcase-top-text {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .showcase-top-text h4 {
+    width: 55rem;
+  }
+
+  .showcase-image {
+    height: 25rem;
+  }
+
+  .showcase-bottom-text {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .showcase-bottom-text h4 {
+    width: 35rem;
+  }
+
+  .showcase-bottom-text p {
+    width: 60vw;
+  }
+
+
+  .showcase-cta {
+    margin-left: 0;
+  }
+
+  .showcase-cta-button {
+    width: 100%;
+  }
 }
