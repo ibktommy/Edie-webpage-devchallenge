@@ -7,13 +7,23 @@
     display: block;
   }
 
+  .showcase > * {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+
   .showcase-top-text {
     width: 100%;
     margin-left: 0;
   }
 
   .showcase-top-text h4 {
-    width: 55rem;
+    width: 25rem;
+    font-size: 2.4rem;
+  }
+
+  .showcase-top-text p {
+    font-size: 1.2rem;
   }
 
   .showcase-image {
@@ -26,11 +36,13 @@
   }
 
   .showcase-bottom-text h4 {
-    width: 35rem;
+    width: 18rem;
+    font-size: 2.4rem;
   }
 
   .showcase-bottom-text p {
-    width: 60vw;
+    font-size: 1.2rem;
+    width: 30rem;
   }
 
 
@@ -40,6 +52,11 @@
 
   .showcase-cta-button {
     width: 100%;
+  }
+
+  .services-header {
+    font-size: 2.4rem;
+    width: 20rem;
   }
 
   .services-details {
@@ -52,5 +69,32 @@
   .services-article {
     width: 100%;
     border: .1rem solid var(--medium-white);
+  }
+
+  .works-header {
+    margin-bottom: 5rem;
+    font-size: 2.4rem;
+    width: 25rem;
+  }
+
+  .project {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .project > * {
+    width: 100%;
+  }
+
+  .project-content.transform {
+    transform: translateY(0);
+  }
+
+  .project-content p {
+    font-size: 1.2rem;
+  }
+
+  .project-content h5 {
+    font-size: 1.8rem;
   }
 }

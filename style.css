@@ -148,15 +148,10 @@ nav {
   position: relative;
 }
 
-section {
-  margin: 0 auto;
-  margin-bottom: 10rem;
-}
-
 /* SHOWCASE */
 .showcase > *{
   margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 7rem;
 }
 
 .showcase-top-text {
@@ -262,7 +257,9 @@ section {
 /* SERVICES SECTION */
 .services {
   max-width: 90%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin: auto;
+  margin-bottom: 7rem;
 }
 
 .services-header {
@@ -348,4 +345,87 @@ section {
   background: var(--pry-color-light);
   color: var(--white);
   transition: .2s ease-in;
+}
+
+/* WORKS SECTION */
+.works {
+  max-width: 90%;
+  margin: 0 auto 7rem auto;
+}
+
+.works-header {
+  font-size: 3.6rem;
+  font-weight: 500;
+  color: var(--medium-dark-grey);
+  width: 30rem;
+  margin-bottom: 10rem;
+}
+
+.works-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.project > * {
+  width: 45%;
+}
+
+.project-content {
+  height: 45rem;
+}
+
+.project-image {
+  width: 100%;
+  height: 80%;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.project-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.project-content.transform {
+  transform: translateY(-10rem);
+}
+
+.project-content p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: var(--medium-grey);
+}
+
+.project-content h5 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  columns: var(--medium-dark-grey);
+}
+
+.works-link {
+  text-align: end;
+}
+
+.works-link a {
+  display: inline-block;
+  color: var(--pry-color-light);
+}
+
+.works-link a span {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.works-link a i {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 1.5rem;
 }
