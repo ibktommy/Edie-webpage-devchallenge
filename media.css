@@ -97,4 +97,18 @@
   .project-content h5 {
     font-size: 1.8rem;
   }
+
+  .team {
+    flex-direction: column;
+  }
+
+  .team-text {
+    align-self: flex-start;
+    margin-bottom: 3rem;
+  }
+
+  .team-image-box {
+    height: 40vh;
+    width: 40vw;
+  }
 }
