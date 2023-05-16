@@ -24,5 +24,153 @@
 html {
   font-family: var(--pry-font);
   font-size: 62.5%;
-  line-height: 1.6;
+}
+
+body {
+  line-height: 1.3;
+  color: var(--white);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  min-height: 1080px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: .1rem solid #000;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.logo h2 {
+  font-family: var(--logo-font);
+  color: var(--medium-dark-grey);
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+.navlist {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.navlist ul li a {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: var(--medium-dark-grey);
+}
+
+/* SHOWCASE */
+.showcase > *{
+  margin-bottom: 2rem;
+}
+
+.showcase-top-text {
+  width: 50rem;
+  margin-left: 10rem;
+}
+
+.showcase-top-text p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--pry-color-light);
+  margin-bottom: .5rem;
+}
+
+.showcase-top-text h4 {
+  font-size: 4.8rem;
+  font-weight: 500;
+  color: var(--medium-dark-grey);
+}
+
+.showcase-image {
+  width: 100%;
+  height: 35rem;
+  border-radius: 1.5rem;
+}
+
+.showcase-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.showcase-bottom-text {
+  width: 35rem;
+  margin-left: 10rem;
+}
+
+.showcase-bottom-text h4{
+  font-size: 4.8rem;
+  font-weight: 500;
+  color: var(--medium-dark-grey);
+
+}
+
+.showcase-bottom-text p {
+  margin: 2rem 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--dark-grey);
+}
+
+.showcase-cta {
+  margin-left: 10rem;
+}
+
+.showcase-cta p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--medium-grey);
+  margin-bottom: .5rem;
+}
+
+.showcase-cta-button {
+  display: flex;
+  width: 30rem;
+  height: 5rem;
+  border-radius: 1rem;
+  background: var(--light-white);
+  padding-left: 1rem;
+}
+
+.showcase-cta-button input {
+  border: 0;
+  border-radius: 1rem;
+  outline: 0;
+  width: 70%;
+  background: var(--light-white);
+}
+
+.showcase-cta-button input::placeholder {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--light-grey);
+}
+
+.showcase-cta-button button {
+  width: 30%;
+  background: var(--pry-color-light);
+  color: var(--light-white);
+  font-size: 1.8rem;
+  font-weight: 500;
+  border: 0;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.showcase-cta-button button:hover {
+  background: var(--pry-color-dark);
+  transition: .4s ease;
 }
