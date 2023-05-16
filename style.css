@@ -487,3 +487,42 @@ nav {
 .team-image-box:nth-child(2) img:first-child {
   width: 85%;
 }
+
+/* CLIENTS SECTION */
+.clients {
+  max-width: 90%;
+  margin: 0 auto 7rem auto;
+}
+
+.clients h4 {
+  font-size: 3.6rem;
+  font-weight: 500;
+  color: var(--medium-dark-grey);
+  width: 80rem;
+  margin-bottom: 3rem;
+}
+
+.client {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.client img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: .8rem;
+}
+
+.client-info h5{
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: var(--medium-dark-grey);
+  margin-bottom: .6rem;
+}
+
+.client-info p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--medium-grey);
+}
