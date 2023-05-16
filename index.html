@@ -11,14 +11,13 @@
   <link rel="stylesheet" href="./media.css">
 </head>
 <body>
-  <div class="container">
-    <!-- NAVBAR -->
+  <!-- NAVBAR -->
     <nav>
       <div class="logo">
         <a href="#home">Edie</a>
       </div>
 
-      <div class="navlist">
+      <!-- <div class="navlist">
           <ul>
             <li>
               <a href="#home">Home</a>
@@ -48,9 +47,18 @@
               <a href="#contact">Contact</a>
             </li>
           </ul>
+      </div> -->
+
+      <div class="nav-menu">
+        <div class="nav-menu-icon">
+          <i class="fa fa-bars"></i>
+          <i class="fa fa-times hidden"></i>
+        </div>
+        
+        <div class="nav-menu-list"></div>
       </div>
     </nav>
-
+  <div class="container">
     <!-- SHOWCASE -->
     <section id="home" class="showcase">
       <div class="showcase-top-text">
@@ -85,10 +93,13 @@
 
       <div class="services-details">
         <article class="services-article">
-          
+
         </article>
       </div>
     </section>
   </div>
+
+  <!-- JS -->
+  <script src="./app.js"></script>
 </body>
 </html>
