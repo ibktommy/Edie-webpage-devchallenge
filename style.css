@@ -574,3 +574,14 @@ footer {
 .copyright {
   text-align: center;
 }
+
+.copyright p {
+  font-family: var(--footer-font);
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--light-white);
+}
+
+.copyright p b {
+  text-decoration: underline;
+}
