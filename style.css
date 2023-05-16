@@ -28,12 +28,20 @@ html {
 
 body {
   line-height: 1.3;
-  color: var(--white);
+  background: var(--white);
 }
 
 a {
   text-decoration: none;
 }
+
+/* .hidden {
+  display: none;
+}
+
+.show {
+  display: inline-block;
+} */
 
 .container {
   max-width: 1440px;
@@ -41,6 +49,10 @@ a {
   margin: 0 auto;
   padding: 2rem;
   border: .1rem solid #000;
+}
+
+section {
+  margin-bottom: 10rem;
 }
 
 /* NAVBAR */
@@ -51,7 +63,11 @@ nav {
   margin-bottom: 5rem;
 }
 
-.logo h2 {
+.logo {
+  cursor: pointer;
+}
+
+.logo a {
   font-family: var(--logo-font);
   color: var(--medium-dark-grey);
   font-size: 3.6rem;
@@ -64,10 +80,19 @@ nav {
   gap: 3rem;
 }
 
+.navlist ul li {
+  list-style-type: none;
+}
+
 .navlist ul li a {
   font-size: 2.4rem;
   font-weight: 500;
   color: var(--medium-dark-grey);
+}
+
+/* NAVMENU */
+.nav-menu i {
+  font-size: 2rem;
 }
 
 /* SHOWCASE */
