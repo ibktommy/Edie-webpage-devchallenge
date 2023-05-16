@@ -129,4 +129,16 @@
   .client-info p {
     font-size: 1.4rem;
   }
+
+  .footer-details {
+    flex-direction: column;
+  }
+
+  .footer-details > * {
+    margin-bottom: 4rem;
+  }
+
+  .footer-details .showcase-cta {
+    width: 80%;
+  }
 }
