@@ -4,6 +4,25 @@
   box-sizing: border-box;
 }
 
+:root {
+  --logo-font: 'Heebo', sans-serif;
+  --pry-font: 'Poppins', sans-serif;
+  --footer-font: 'Montserrat', sans-serif;
+  --white: #ffffff;
+  --light-white: #f2f2f2;
+  --medium-white: #E0E0E0;
+  --light-grey: #bdbdbd;
+  --medium-grey: #828282;
+  --dark-grey: #4f4f4f;
+  --medium-dark-grey: #333333;
+  --pry-color-light: #2d9cdb;
+  --pry-color-dark: #100E1D;
+  --sec-color: #27AE60;
+  --tertiary-color: #EB5757;
+}
+
 html {
+  font-family: var(--pry-font);
   font-size: 62.5%;
+  line-height: 1.6;
 }
